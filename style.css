@@ -1,0 +1,86 @@
+body{
+  background-color:black
+}
+.container{
+  height:500px;
+  width:400px;
+  background-color:#212122;
+  position:absolute;
+  top:40px;
+  left:450px;
+  border-radius:15px;
+  display:flex;
+  justify-content:center;
+}
+.profile_photo{
+width:120px;
+height:120px;
+background-color:azure;
+border-radius:50%;
+position:absolute;
+top:25px;
+display:flex;
+justify-content:center;
+align-items:center;
+background-image:url("avatar-jessica.jpeg");
+background-size: cover;
+
+}
+
+.name{
+  color:white;
+  font-size:24px;
+  position:absolute;
+  top:145px;
+}
+.place{
+    color:#ccff33;
+  font-size:12px;
+  position:absolute;
+  top:190px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.profession{
+    color:white;
+  font-size:12px;
+  position:absolute;
+  top:210px;
+  text-align:center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button{
+  height:30px;
+  width:330px;
+  position:absolute;
+  top:250px;
+  margin:20px;
+  
+  border-radius:10px;
+  
+  background-color:#343434;
+  border-color:#343434;
+}
+#button2{
+  position:absolute;
+  top:290px;
+}
+#button3{
+  position:absolute;
+  top:330px;
+}
+#button4{
+  position:absolute;
+  top:370px;
+}
+#button5{
+  position:absolute;
+  top:410px;
+}
+pre{
+  text-align:center;
+  font-size:14px;
+  margin:5px;
+  color:white;
+}
